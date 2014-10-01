@@ -1,0 +1,119 @@
+/* ******************** DEFAULTS ******************** */
+
+body {
+	background-color: #F0F8FF;
+}
+
+h1 {
+	text-align: center;
+	margin: 40px 0 -20px 40px;
+	font-size: 70px;
+	font-family: 'Just Another Hand', Helvetica, sans-serif;
+}
+
+form {
+	text-transform: uppercase;
+}
+
+/* ******************** CSS CLASSES-NON RENDERED ******************** */
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
+}
+
+.form-container {
+	margin-top: 40px;
+	text-align: center;
+}
+
+/*AUTHOR WRAPPER*/
+.input-wrapper {
+	margin: -20px 0 10px 11px;
+	height: 50px;
+}
+
+/*H2 HEADER CLASS*/
+.input-wrapper-header {
+	text-transform: none;
+	font-weight: normal;
+	margin: 11px 546px 0px 0px;
+}
+.input-wrapper-header-two {
+	text-transform: none;
+	font-weight: normal;
+	margin: 11px 555px 0px 0px;
+}
+
+/*QUOTE WRAPPER*/
+.input-wrapper-two {
+	margin: 0 0 10px 11px;
+}
+
+/*AUTHOR TEXT BOX*/
+.author-input {
+	width: 600px;
+	height: 20px;
+	margin: 8px 0 10px 0;
+}
+
+/*QUOTE TEXT BOX*/
+.quote-input {
+	width: 600px;
+	height: 200px;
+	margin: 8px 0 2px 0;
+}
+
+/*SUBMIT BUTTON*/
+.submit-button {
+	border-radius: 10px;
+	height: 35px;
+	width: 100px;
+	text-transform: uppercase;
+	margin-left: 65px;
+}
+
+/* ******************** CSS APPEND SECTION ******************** */
+
+.append-quotes {
+	position: relative;
+}
+
+/*APPEND QUOTE TITLE*/
+.append-quote-title {
+	margin: 20px auto 0 auto;
+	text-align: center;
+	font-size: 34px;
+	font-family: 'Just Another Hand', Helvetica, sans-serif;
+}
+
+/* ******************** CSS CLASSES-RENDERED ******************** */
+
+.main-wrapper {
+	background-color: #FFF;
+	width: 610px;
+	height: 150px;
+	left: 5px;
+	margin: 20px auto;
+	position: relative;	
+	text-align: left;
+}
+
+.rendered-title {
+	padding-top: 12px;
+	font-weight: 500;
+	font-family: 'Berkshire Swash', Helvetica, Sans-serif;
+	font-style: italic;
+	font-size: 28px;
+	margin: 0 0 0 20px;
+}
+
+.rendered-quote {
+	position: relative;
+	font-size: 18px;
+	margin-left: 20px;
+	margin: 2px 0 0 20px;
+	font-family: 400 3.5em/125% 'Courgette', Helvetica, Sans-serif;
+}
+
